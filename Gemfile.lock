@@ -118,6 +118,8 @@ GEM
     nio4r (2.7.3)
     nokogiri (1.13.10-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.10-x86_64-linux)
+      racc (~> 1.4)
     public_suffix (5.0.5)
     puma (3.12.6)
     racc (1.8.0)
@@ -212,6 +214,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
